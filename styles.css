@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
     max-width: 900px;
@@ -16,6 +16,7 @@ body {
 header {
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -24,36 +25,57 @@ h1 {
     font-weight: normal;
 }
 
-section {
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
     margin-bottom: 20px;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2980b9;
 }
 
 h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
+font-size: 1.2em;
+margin-bottom: 5px;
 }
 
 ul {
-    list-style-type: square;
-    padding-left: 20px;
+list-style-type: square;
+padding-left: 20px;
 }
 
 a {
-    color: #2980b9;
-    text-decoration: none;
+color: #2980b9;
+text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 footer {
-    text-align: center;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+text-align: center;
+border-top: 1px solid #ccc;
+padding-top: 10px;
+margin-top: 20px;
 }
